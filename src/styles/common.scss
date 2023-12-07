@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.background {
+    background-image: url('../images/purple_ball.png');
+    background-repeat: no-repeat;
+    background-position: 62% 0%;
+   
+}
+
+.background2 {
+    background-image: url('../images/red_ball.png');
+    background-repeat: no-repeat;
+    background-position: 38% 11%;
+
+}
+
+.background3 {
+    background-image: url('../images/red_ball-small.png');
+    background-repeat: no-repeat;
+    background-position: 61% 59%
+}
+
+.background4 {
+    background-image: url('../images/red_light.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.background5 {
+    background-image: url('../images/purple_light.png');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 576px;
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+}
